@@ -24,7 +24,8 @@ export const Input = styled.input`
   padding-left: 32px;
   border: 2px solid #42585f;
   border-radius: 4px;
-  width: 358px;
+  width: 100%;
+  /* max-width: 358px; */
   height: 44px;
   font-style: normal;
   font-weight: 400;
@@ -71,8 +72,6 @@ export const Fit = styled.p`
 `;
 export const DivFit = styled.div`
   border-bottom: 2px solid #182123;
-  margin-left: 16px;
-  margin-top: 16px;
-  margin-bottom: 11px;
-  width: 358px;
+  margin: 16px 16px 11px 16px;
+  /* max-width: 358px; */
 `;

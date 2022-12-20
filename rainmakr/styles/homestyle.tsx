@@ -8,11 +8,8 @@ export const Main = styled.main`
 export const Section = styled.section`
   background-color: #273539;
   border-radius: 8px;
-  margin-top: 44px;
-  margin-bottom: 33px;
-  margin-left: 15px;
-  margin-right: 15px;
-  width: 360px;
+  margin: 44px 15px;
+  width: calc((100vw)-30px);
   height: 727px;
   padding: 24px;
 `;
@@ -21,10 +18,13 @@ export const Form = styled.form`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  a {
+    width: 100%;
+  }
 `;
 export const Input = styled.input`
   background-color: #0e181a;
-  width: 312px;
+  width: 100%;
   height: 44px;
   border: none;
   border-radius: 4px;
@@ -37,7 +37,7 @@ export const Input = styled.input`
 export const Button = styled.button`
   background-color: #20def6;
   border: none;
-  width: 312px;
+  min-width: 100%;
   height: 42px;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
   border-radius: 20px;

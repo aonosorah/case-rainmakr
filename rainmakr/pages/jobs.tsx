@@ -14,8 +14,17 @@ import {
 import mag from '../assets/magnifying.svg';
 import filter from '../assets/filter.svg';
 import Image from 'next/image';
+import data from '../data/jobs.json';
 
 export default function Jobs() {
+  const showJobs = data.map((item) => {
+    return <Card jobs={item} key={item.id} />;
+  });
+  const lastetsJobs = data
+    .filter((a, index) => index % 2)
+    .map((item) => {
+      return <Card jobs={item} key={item.id} />;
+    });
   return (
     <>
       <div>
@@ -36,20 +45,12 @@ export default function Jobs() {
         <DivFit>
           <Fit>YOUR FIT</Fit>
         </DivFit>
-        <JobsBox>
-          <Card />
-          <Card />
-          <Card />
-          <Card />
-        </JobsBox>
+        <JobsBox>{showJobs}</JobsBox>
       </div>
       <DivFit>
         <Fit>LASTETS JOBS</Fit>
       </DivFit>
-      <JobsBox>
-        <Card />
-        <Card />
-      </JobsBox>
+      <JobsBox>{lastetsJobs}</JobsBox>
     </>
   );
 }

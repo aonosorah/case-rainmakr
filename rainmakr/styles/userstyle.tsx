@@ -3,12 +3,8 @@ import styled from 'styled-components';
 export const Section = styled.section`
   background-color: #273539;
   border-radius: 8px;
-  margin-top: 44px;
-  margin-bottom: 33px;
-  margin-left: 15px;
-  margin-right: 15px;
-  width: 360px;
-
+  margin: 44px 15px;
+  width: calc((100vw)-30px);
   padding: 24px;
 `;
 export const ImgDiv = styled.div`
@@ -95,7 +91,7 @@ export const ButtonBox = styled.div`
   gap: 16px;
 `;
 export const ButtonOne = styled.button`
-  width: 312px;
+  width: 100%;
   height: 35px;
   background: #20def6;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
@@ -117,7 +113,7 @@ export const ButtonTwo = styled.button`
   line-height: 19px;
   color: #12cce4;
   background-color: #273539;
-  width: 312px;
+  width: 100%;
   height: 35px;
 `;
 export const ButtonThree = styled.button`
@@ -127,7 +123,7 @@ export const ButtonThree = styled.button`
   font-size: 16px;
   line-height: 19px;
   background-color: #273539;
-  width: 312px;
+  width: 100%;
   height: 35px;
   color: #5d818d;
   border: 2px solid #5d818d; ;

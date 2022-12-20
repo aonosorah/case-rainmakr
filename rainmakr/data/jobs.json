@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "company": "Nespresso",
+    "job": "Coffe Time",
+    "start": "6/25",
+    "delivery": "8/6",
+    "theme": "lifestyle",
+    "fit": 80
+  },
+  {
+    "id": 2,
+    "company": "Absolut",
+    "job": "Party Hard",
+    "start": "7/25",
+    "delivery": "9/6",
+    "theme": "lifestyle",
+    "fit": 70
+  },
+  {
+    "id": 3,
+    "company": "Sephora",
+    "job": "Summer Spots",
+    "start": "6/25",
+    "delivery": "8/6",
+    "theme": "Fashion",
+    "fit": 90
+  },
+  {
+    "id": 4,
+    "company": "Nike",
+    "job": "Active Lifestyle",
+    "start": "6/25",
+    "delivery": "8/6",
+    "theme": "lifestyle",
+    "fit": 80
+  },
+  {
+    "id": 5,
+    "company": "Forever 21",
+    "job": "Autumn Spots",
+    "start": "6/25",
+    "delivery": "8/6",
+    "theme": "Fashion",
+    "fit": 90
+  },
+  {
+    "id": 6,
+    "company": "Heineken",
+    "job": "Party Hard",
+    "start": "6/25",
+    "delivery": "8/6",
+    "theme": "lifestyle",
+    "fit": 80
+  }
+]

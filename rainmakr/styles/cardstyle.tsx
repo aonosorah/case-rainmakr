@@ -1,7 +1,9 @@
 import styled from 'styled-components';
 
 export const CardBox = styled.div`
-  width: 175px;
+  width: 100%;
+  max-width: 175px;
+  min-height: 100%;
   background: #273539;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
@@ -32,6 +34,7 @@ export const TextOne = styled.p`
   font-size: 12px;
   line-height: 14px;
   color: #5d818d;
+  text-transform: uppercase;
 `;
 export const Button = styled.button`
   width: 53px;
@@ -53,6 +56,7 @@ export const TextTwo = styled.p`
   font-size: 16px;
   line-height: 19px;
   color: #ffffff;
+  text-transform: uppercase;
 `;
 export const TextThree = styled.p`
   font-style: normal;
@@ -83,6 +87,7 @@ export const Theme = styled.p`
   letter-spacing: 0.5px;
   color: #ff6b00;
   margin-top: 8px;
+  text-transform: uppercase;
 `;
 export const Platf = styled.p`
   font-style: normal;

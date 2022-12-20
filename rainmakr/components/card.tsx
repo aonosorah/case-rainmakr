@@ -17,31 +17,44 @@ import {
 import insta from '../assets/insta.svg';
 import Image from 'next/image';
 
-export default function Card() {
+interface Obj {
+  jobs: {
+    id: number;
+    company: string;
+    job: string;
+    start: string;
+    delivery: string;
+    theme: string;
+    fit: number;
+  };
+}
+
+export default function Card({ jobs }: Obj) {
+  const { company, delivery, fit, id, job, start, theme } = jobs;
   return (
     <CardBox>
       <DivOne>
-        <TextOne>COMPANY</TextOne>
+        <TextOne>{company}</TextOne>
         <TextOne>FIT</TextOne>
       </DivOne>
       <DivTwo>
-        <TextTwo>EVENT</TextTwo>
-        <TextThree>00%</TextThree>
+        <TextTwo>{job}</TextTwo>
+        <TextThree>{fit}%</TextThree>
       </DivTwo>
       <div>
         <DivThree>
           <TextFour>Start:</TextFour>
-          <TextFive>00/00</TextFive>
+          <TextFive>{start}</TextFive>
         </DivThree>
         <DivThree>
           <TextFour>Delivery:</TextFour>
-          <TextFive>0/0</TextFive>
+          <TextFive>{delivery}</TextFive>
         </DivThree>
-        <Theme>THEME</Theme>
+        <Theme>{theme}</Theme>
       </div>
       <DivSocial>
         <Platf>PLATFORMS</Platf>
-        <Image src={insta} alt="instagram logo" />
+        <Image width={16} height={16} src={insta} alt="instagram logo" />
       </DivSocial>
       <Button>Get it</Button>
     </CardBox>
