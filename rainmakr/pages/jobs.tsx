@@ -41,13 +41,15 @@ export default function Jobs() {
           <Card />
           <Card />
           <Card />
-          <Card />
-          <Card />
         </JobsBox>
       </div>
-      <div>
-        <p>LASTETS JOBS</p>
-      </div>
+      <DivFit>
+        <Fit>LASTETS JOBS</Fit>
+      </DivFit>
+      <JobsBox>
+        <Card />
+        <Card />
+      </JobsBox>
     </>
   );
 }

@@ -43,7 +43,7 @@ export default function User() {
               <Image src={user} alt="user photo" />
             </ImgDiv>
             <InfoBox>
-              <NameText>SHIN RYU JIN</NameText>
+              <NameText>ARIEL CHRISTINE</NameText>
               <LocText>LOS ANGELES, CA</LocText>
               <LikeText>LIFESTYLE, FASHION</LikeText>
             </InfoBox>
