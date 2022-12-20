@@ -8,7 +8,7 @@ export const Section = styled.section`
   margin-left: 15px;
   margin-right: 15px;
   width: 360px;
-  height: 727px;
+
   padding: 24px;
 `;
 export const ImgDiv = styled.div`
@@ -131,4 +131,20 @@ export const ButtonThree = styled.button`
   height: 35px;
   color: #5d818d;
   border: 2px solid #5d818d; ;
+`;
+export const LastDiv = styled.div`
+  margin-top: 24px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+`;
+export const CreateText = styled.p`
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  color: #5d818d;
 `;

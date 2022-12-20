@@ -19,12 +19,15 @@ import {
   ButtonBox,
   ButtonTwo,
   ButtonThree,
+  LastDiv,
+  CreateText,
 } from '../styles/userstyle';
 import Image from 'next/image';
 import insta from '../assets/insta.svg';
 import tiktok from '../assets/tiktok.svg';
 import snap from '../assets/snap.svg';
 import logo from '../assets/logo.svg';
+import Link from 'next/link';
 
 export default function User() {
   return (
@@ -69,16 +72,18 @@ export default function User() {
             <Image src={snap} alt="snapchat logo" />
           </SocialBox>
           <ButtonBox>
-            <ButtonOne>Direct Book Me</ButtonOne>
+            <Link href="/jobs">
+              <ButtonOne>Direct Book Me</ButtonOne>
+            </Link>
             <ButtonTwo>Follow</ButtonTwo>
             <ButtonThree>My Store</ButtonThree>
             <ButtonThree>My Podcast</ButtonThree>
             <ButtonThree>Wish List</ButtonThree>
           </ButtonBox>
-          <div>
-            <p>CREATE YOUR OWN RAINLINK</p>
+          <LastDiv>
+            <CreateText>CREATE YOUR OWN RAINLINK</CreateText>
             <Image src={logo} alt="logo image" />
-          </div>
+          </LastDiv>
         </Section>
       </main>
     </>
