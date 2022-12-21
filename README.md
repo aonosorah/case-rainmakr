@@ -14,7 +14,7 @@ Avaliar a capacidade de escrever código limpo, bem estruturado e reutilizável.
 ## Para visualizar o código
 - Clone o repositório
 ```
-$ https://github.com/aonosorah/cs-lacrei.git
+$ https://github.com/aonosorah/case-rainmakr.git
 ```
 - Instale as dependências:
 ```
