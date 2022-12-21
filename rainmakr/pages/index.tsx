@@ -59,7 +59,7 @@ export default function Home() {
           </div>
           <LastBox>
             <T>
-              IF YOU DON'T HAVE AN ACCOUNT <TColor>REGISTER HERE!</TColor>
+              IF YOU DON'T HAVE AN ACCOUNT&apos;<TColor>REGISTER HERE!</TColor>
             </T>
           </LastBox>
         </Section>
