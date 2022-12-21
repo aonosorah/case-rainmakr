@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/102835599/208987172-43e749ff-ed63-4aec-bb2f-3a62507d78f5.png)
 ## Objetivo
-Avaliar a capacidade de escrever código limpo, bem estruturado e reutilizável. Com o objetivo principal de seguir o figma indicado.
+Avaliar a capacidade de escrever código limpo, bem estruturado e reutilizável. Com o objetivo principal de seguir o figma indicado (mobile first).
 
 ## Visualize a Aplicação
 [Rainmakr](https://case-rainmakr.vercel.app//)
